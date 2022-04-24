@@ -18,13 +18,13 @@
  */
 package ca.rmen.android.scrumchatter.about;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NavUtils;
+import androidx.databinding.DataBindingUtil;
 
 import ca.rmen.android.scrumchatter.BuildConfig;
 import ca.rmen.android.scrumchatter.R;
