@@ -22,10 +22,10 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.ColorInt;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.ColorInt;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
@@ -74,7 +74,8 @@ final class ChartUtils {
         legendView.addView(memberLegendEntry);
     }
 
-    static @ColorInt int getMemberColor(Context context, long memberId) {
+    static @ColorInt
+    int getMemberColor(Context context, long memberId) {
         String[] colors = context.getResources().getStringArray(R.array.chart_colors);
         String colorString = colors[(int) memberId % colors.length];
         @ColorInt int color = Color.parseColor(colorString);

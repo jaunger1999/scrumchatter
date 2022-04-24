@@ -18,12 +18,12 @@
  */
 package ca.rmen.android.scrumchatter.chart;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.databinding.DataBindingUtil;
 
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.databinding.ChartsActivityBinding;

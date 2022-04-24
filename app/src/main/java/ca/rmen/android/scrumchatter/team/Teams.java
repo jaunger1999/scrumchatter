@@ -23,10 +23,10 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.MainThread;
-import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 
+import androidx.annotation.MainThread;
+import androidx.annotation.WorkerThread;
 import androidx.fragment.app.FragmentActivity;
 
 import java.util.ArrayList;
