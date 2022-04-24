@@ -24,8 +24,8 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
-import android.support.annotation.Nullable;
 
+import androidx.annotation.Nullable;
 import androidx.core.content.FileProvider;
 
 import java.io.File;

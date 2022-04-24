@@ -71,7 +71,6 @@ dependencies {
     implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
     //implementation "com.androidx.support:appcompat-v7:${rootProject.supportLibVersion}"
     implementation "androidx.cardview:cardview:1.0.0"
-    implementation "androidx.preference:preference:1.2.0"
     implementation ('net.sourceforge.jexcelapi:jxl:2.6.12') {
         exclude group: "log4j"
     }

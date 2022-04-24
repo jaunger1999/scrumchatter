@@ -20,13 +20,13 @@ package ca.rmen.android.scrumchatter.meeting.detail;
 
 import android.content.Context;
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.MainThread;
 import android.view.View;
 
+import androidx.annotation.MainThread;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 import androidx.viewpager.widget.ViewPager;
 
 import ca.rmen.android.scrumchatter.Constants;

@@ -19,12 +19,9 @@
 package ca.rmen.android.scrumchatter.meeting.detail;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Handler;
 import android.os.SystemClock;
-import android.support.annotation.ColorInt;
-import android.support.annotation.ColorRes;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,7 +29,10 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.ImageView;
 
+import androidx.annotation.ColorInt;
+import androidx.annotation.ColorRes;
 import androidx.core.content.ContextCompat;
+import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import ca.rmen.android.scrumchatter.Constants;
@@ -51,7 +51,8 @@ public class MeetingCursorAdapter extends ScrumChatterCursorAdapter<MeetingCurso
     private static final String TAG = Constants.TAG + "/" + MeetingCursorAdapter.class.getSimpleName();
     private final MemberStartStopListener mMemberStartStopListener;
     private final @ColorInt int mColorChronoActive;
-    private final @ColorInt int mColorChronoInactive;
+    private final @ColorInt
+    int mColorChronoInactive;
     private final @ColorInt int mColorChronoNotStarted;
 
     public interface MemberStartStopListener {

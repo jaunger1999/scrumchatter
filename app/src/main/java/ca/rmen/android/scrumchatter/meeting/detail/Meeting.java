@@ -27,8 +27,9 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.WorkerThread;
 
 import ca.rmen.android.scrumchatter.settings.Prefs;
 import ca.rmen.android.scrumchatter.util.Log;
