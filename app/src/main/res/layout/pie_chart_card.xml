@@ -28,7 +28,7 @@
             type="ca.rmen.android.scrumchatter.chart.FabListener" />
     </data>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -40,7 +40,7 @@
             android:id="@+id/pie_chart_content"
             layout="@layout/pie_chart_content" />
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_share_member_speaking_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,5 +52,5 @@
             android:onClick="@{fabListener::onShare}"
             android:src="@drawable/ic_action_share" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 </layout>

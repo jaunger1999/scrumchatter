@@ -25,14 +25,15 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.ImageView;
+
+import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.R;

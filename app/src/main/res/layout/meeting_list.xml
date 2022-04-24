@@ -91,7 +91,7 @@
                 tools:listitem="@android:layout/simple_list_item_2" />
         </LinearLayout>
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_new_meeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

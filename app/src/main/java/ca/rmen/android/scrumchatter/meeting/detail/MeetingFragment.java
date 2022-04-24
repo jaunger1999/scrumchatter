@@ -28,14 +28,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.support.annotation.MainThread;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.LoaderManager.LoaderCallbacks;
-import android.support.v4.app.NavUtils;
-import android.support.v4.content.CursorLoader;
-import android.support.v4.content.Loader;
-import android.support.v7.widget.LinearLayoutManager;
 import android.text.format.DateUtils;
 
 import ca.rmen.android.scrumchatter.chart.MeetingChartActivity;
@@ -47,6 +39,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.dialog.DialogFragmentFactory;

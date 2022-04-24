@@ -18,10 +18,11 @@
  */
 package ca.rmen.android.scrumchatter.main;
 
-import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
+
+import androidx.fragment.app.FragmentActivity;
 
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.R;

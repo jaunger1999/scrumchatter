@@ -19,10 +19,12 @@
 package ca.rmen.android.scrumchatter.member.list;
 
 import android.databinding.DataBindingUtil;
-import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
+
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.databinding.MemberListItemBinding;
 import ca.rmen.android.scrumchatter.member.list.Members.Member;

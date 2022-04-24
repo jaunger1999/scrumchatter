@@ -21,8 +21,9 @@ package ca.rmen.android.scrumchatter.settings;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
-import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatDelegate;
 
 import ca.rmen.android.scrumchatter.Constants;
 import io.reactivex.Single;
@@ -60,9 +61,9 @@ public class Theme {
                             activity.recreate();
                         }
                     } else if (theme == Prefs.Theme.Auto) {
-                        if (AppCompatDelegate.getDefaultNightMode() != AppCompatDelegate.MODE_NIGHT_AUTO) {
+                        if (AppCompatDelegate.getDefaultNightMode() != AppCompatDelegate.MODE_NIGHT_AUTO_BATTERY) {
                             Log.v(TAG, "Restarting in auto mode");
-                            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_AUTO);
+                            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_AUTO_BATTERY);
                             activity.recreate();
                         }
                     }

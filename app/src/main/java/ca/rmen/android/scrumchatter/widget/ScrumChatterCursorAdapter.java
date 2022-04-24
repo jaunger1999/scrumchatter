@@ -20,7 +20,8 @@ package ca.rmen.android.scrumchatter.widget;
 
 import android.database.Cursor;
 import android.provider.BaseColumns;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class ScrumChatterCursorAdapter<T extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<T> {
 

@@ -20,8 +20,9 @@ package ca.rmen.android.scrumchatter.chart;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.databinding.ChartsActivityBinding;

@@ -20,10 +20,11 @@ package ca.rmen.android.scrumchatter.about;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NavUtils;
 
 import ca.rmen.android.scrumchatter.BuildConfig;
 import ca.rmen.android.scrumchatter.R;

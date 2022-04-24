@@ -23,7 +23,6 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.support.annotation.MainThread;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 
 import ca.rmen.android.scrumchatter.R;

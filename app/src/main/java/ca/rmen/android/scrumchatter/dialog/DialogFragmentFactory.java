@@ -21,8 +21,10 @@ package ca.rmen.android.scrumchatter.dialog;
 import java.util.Arrays;
 
 import android.os.Bundle;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.FragmentActivity;
+
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentActivity;
+
 import ca.rmen.android.scrumchatter.util.Log;
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.dialog.ChoiceDialogFragment.DialogItemListener;
@@ -49,7 +51,7 @@ public class DialogFragmentFactory extends DialogFragment {
      * @param inputValidatorClass will be called with each text event on the edit text, to validate the user's input.
      */
     public static void showInputDialog(FragmentActivity activity, String title, String inputHint, String prefilledText,
-            Class<?> inputValidatorClass, int actionId, Bundle extras) {
+                                       Class<?> inputValidatorClass, int actionId, Bundle extras) {
         Log.v(TAG, "showInputDialog: title = " + title + ", prefilledText =  " + prefilledText + ", actionId = " + actionId + ", extras = " + extras);
         Bundle arguments = new Bundle(6);
         arguments.putString(EXTRA_TITLE, title);

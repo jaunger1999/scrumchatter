@@ -20,8 +20,8 @@ package ca.rmen.android.scrumchatter.meeting;
 
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentActivity;
+
+import androidx.fragment.app.FragmentActivity;
 
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.R;

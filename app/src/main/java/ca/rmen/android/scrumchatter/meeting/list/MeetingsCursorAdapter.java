@@ -21,13 +21,14 @@ package ca.rmen.android.scrumchatter.meeting.list;
 import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.os.Build;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+
+import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.databinding.MeetingListItemBinding;

@@ -21,8 +21,10 @@ package ca.rmen.android.scrumchatter.dialog;
 import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v4.app.DialogFragment;
-import android.support.v7.app.AlertDialog;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
+
 import ca.rmen.android.scrumchatter.util.Log;
 import ca.rmen.android.scrumchatter.Constants;
 

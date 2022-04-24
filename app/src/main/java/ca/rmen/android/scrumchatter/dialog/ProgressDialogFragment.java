@@ -23,10 +23,10 @@ import android.app.ProgressDialog;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.content.ContextCompat;
 import ca.rmen.android.scrumchatter.util.Log;
 import android.widget.ProgressBar;
+
+import androidx.fragment.app.DialogFragment;
 
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.R;

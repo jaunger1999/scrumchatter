@@ -26,9 +26,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.WorkerThread;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentStatePagerAdapter;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import ca.rmen.android.scrumchatter.settings.Prefs;
 import ca.rmen.android.scrumchatter.util.Log;

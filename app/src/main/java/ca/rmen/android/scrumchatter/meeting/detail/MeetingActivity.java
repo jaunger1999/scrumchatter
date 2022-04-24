@@ -23,10 +23,11 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.MainThread;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import ca.rmen.android.scrumchatter.Constants;
 import ca.rmen.android.scrumchatter.R;
@@ -147,7 +148,7 @@ public class MeetingActivity extends AppCompatActivity implements DialogButtonLi
      * When the user selects a meeting by swiping left or right, we need to load the data
      * from the meeting, to update the title in the action bar.
      */
-    private final OnPageChangeListener mOnPageChangeListener = new OnPageChangeListener() {
+    private final ViewPager.OnPageChangeListener mOnPageChangeListener = new ViewPager.OnPageChangeListener() {
 
         @Override
         public void onPageSelected(int position) {

@@ -23,11 +23,12 @@ import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.ColorInt;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v4.graphics.drawable.DrawableCompat;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.core.content.ContextCompat;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.core.graphics.drawable.DrawableCompat;
 
 import ca.rmen.android.scrumchatter.R;
 import lecho.lib.hellocharts.model.Axis;
