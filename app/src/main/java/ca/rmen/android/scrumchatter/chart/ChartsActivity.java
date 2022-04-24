@@ -23,6 +23,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.databinding.ChartsActivityBinding;
@@ -39,7 +40,7 @@ public class ChartsActivity extends AppCompatActivity {
 
         ChartPagerAdapter pagerAdapter = new ChartPagerAdapter(this, getSupportFragmentManager());
         ChartsActivityBinding binding = DataBindingUtil.setContentView(this, R.layout.charts_activity);
-        setSupportActionBar(binding.toolbarTabs.toolbar);
+        setSupportActionBar((Toolbar) binding.toolbarTabs.toolbar);
         ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null) supportActionBar.setDisplayHomeAsUpEnabled(true);
         // Set up the ViewPager with the sections adapter.

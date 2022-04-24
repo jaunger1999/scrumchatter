@@ -25,6 +25,8 @@ import android.graphics.Canvas;
 import android.support.annotation.MainThread;
 import android.view.View;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import ca.rmen.android.scrumchatter.R;
 import ca.rmen.android.scrumchatter.export.BitmapExport;
 import io.reactivex.schedulers.Schedulers;

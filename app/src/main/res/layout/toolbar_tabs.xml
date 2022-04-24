@@ -24,7 +24,7 @@
     android:paddingTop="@dimen/appbar_padding_top"
     android:theme="@style/AppTheme.AppBarOverlay">
 
-    <android.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         app:titleTextColor="@color/toolbar_title_color"
         app:theme="@style/AppTheme.Toolbar"
         android:id="@+id/toolbar"

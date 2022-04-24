@@ -39,7 +39,12 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.graphics.drawable.DrawerArrowDrawable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.Arrays;
 
@@ -114,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements DialogButtonListe
         StrictModeUtil.enable();
 
         // Set up the action bar.
-        setSupportActionBar(mBinding.toolbarTabs.toolbar);
+        setSupportActionBar((Toolbar) mBinding.toolbarTabs.toolbar);
         ActionBar supportActionBar = getSupportActionBar();
         assert supportActionBar != null;
         supportActionBar.setDisplayHomeAsUpEnabled(true);

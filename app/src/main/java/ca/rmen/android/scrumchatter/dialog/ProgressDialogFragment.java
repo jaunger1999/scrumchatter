@@ -26,6 +26,7 @@ import android.support.annotation.NonNull;
 import ca.rmen.android.scrumchatter.util.Log;
 import android.widget.ProgressBar;
 
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 
 import ca.rmen.android.scrumchatter.Constants;
